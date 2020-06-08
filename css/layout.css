@@ -2,16 +2,20 @@ body {
   align-content: center;
 }
 footer {
+  bottom: 0;
+  left: 0;
   position: fixed;
+  text-align: center;
+  width: 100%;
+  font-size: 100%;
 }
 img {
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5rem;
   padding: 40px;
-  width: 30%;
+  width: 20%;
 }
 ul li {
   margin-left: 20%;
@@ -26,13 +30,14 @@ ul li {
 }
 .background {
   margin-bottom: 5rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .entire-nav {
-  padding-bottom: 5%;
-  padding-top: 0.5%;
+  padding-bottom: 3%;
 }
 .goal {
-  margin: 2rem;
+  margin: 1rem;
 }
 .grid-soft-skills {
   display: grid;
@@ -45,6 +50,10 @@ ul li {
   margin: 3rem;
   margin-left: 30%;
   margin-right: 30%;
+}
+.name {
+  padding: 25px;
+  margin: 5px;
 }
 .nav-bar {
   display: grid;
