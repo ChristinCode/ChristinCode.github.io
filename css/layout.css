@@ -1,26 +1,35 @@
+body {
+  align-content: center;
+}
+footer {
+  position: fixed;
+}
 img {
-  display: block;
   border-radius: 50%;
-  width: 30%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5rem;
   padding: 40px;
+  width: 30%;
 }
-body {
-  align-content: center;
+ul li {
+  margin-left: 20%;
+  width: fit-content;
 }
 .articles {
   display: flex;
   justify-content: space-between;
 }
+.contact {
+  margin-bottom: 5rem;
+}
+.background {
+  margin-bottom: 5rem;
+}
 .entire-nav {
   padding-bottom: 5%;
   padding-top: 0.5%;
-}
-.nav-bar {
-  display: grid;
-  grid-auto-flow: column;
 }
 .goal {
   margin: 2rem;
@@ -32,58 +41,52 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
-.soft-skills {
-  grid-column: 1/5;
-}
 .networking {
   margin: 3rem;
   margin-left: 30%;
   margin-right: 30%;
 }
-.sites {
+.nav-bar {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-auto-flow: column;
 }
-.contact {
-  margin-bottom: 5rem;
-}
-.background {
-  margin-bottom: 5rem;
+.project-page h3 {
+  margin-left: 75px;
+  text-align: left;
 }
 .quick-access {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.project-page h3 {
-  text-align: left;
-  margin-left: 75px;
+.skill-list {
+  margin-left: 5%;
+  margin-right: 70%;
+  padding: 10px;
 }
-ul li {
-  width: fit-content;
-  margin-left: 20%;
+.soft-skills {
+  grid-column: 1/5;
 }
-.skill-list{
-    padding: 10px;
-    margin-left: 5%;
-    margin-right: 70%;
+.sites {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
 }
 .thing1 {
-  padding: 10px;
   margin: 15px;
+  padding: 10px;
 }
 .thing1 img,
 .thing2 img,
 .thing3 img {
   border-radius: 0%;
-  width: 75%;
   margin-bottom: 0rem;
+  width: 75%;
 }
 .thing2 {
-  padding: 10px;
   margin: 15px;
+  padding: 10px;
 }
 .thing3 {
-  padding: 10px;
   margin: 15px;
+  padding: 10px;
 }
