@@ -17,7 +17,7 @@ a {
 body {
   background-color: var(--color9);
   color: var(--color4);
-  font-family: cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 120%;
   text-align: center;
 }
