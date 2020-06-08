@@ -1,53 +1,89 @@
-img{
-    display: block;
-    border-radius: 50%;
-    width: 35%;
-    margin-left: 32%;
-    margin-bottom: 8rem;
+img {
+  display: block;
+  border-radius: 50%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  padding: 40px;
 }
-body{
-    align-content: center;
+body {
+  align-content: center;
 }
-.entire-nav{
-padding-bottom: 5%;
-padding-top: .5%;
+.articles {
+  display: flex;
+  justify-content: space-between;
 }
-.nav-bar{
-    display: grid;
-    grid-auto-flow: column;
+.entire-nav {
+  padding-bottom: 5%;
+  padding-top: 0.5%;
 }
-.goal{
-    margin: 5rem;
+.nav-bar {
+  display: grid;
+  grid-auto-flow: column;
 }
-.grid-soft-skills{
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    margin-bottom: 8rem;
-    margin-left: 10%;
-    margin-right: 10%;
+.goal {
+  margin: 2rem;
 }
-.soft-skills{
-    grid-column: 1/5;
+.grid-soft-skills {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  margin-bottom: 8rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.networking{
-    margin: 3rem;
-    margin-left: 30%;
-    margin-right: 30%;
+.soft-skills {
+  grid-column: 1/5;
 }
-.sites{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-
+.networking {
+  margin: 3rem;
+  margin-left: 30%;
+  margin-right: 30%;
 }
-.contact{
-    margin-bottom: 5rem;
+.sites {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
 }
-.background{
-    margin-bottom: 5rem;
+.contact {
+  margin-bottom: 5rem;
 }
-.quick-access{
-    display: grid;
-    grid-auto-flow: column;
-    margin-left: 20%;
-    margin-right: 20%;
+.background {
+  margin-bottom: 5rem;
+}
+.quick-access {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.project-page h3 {
+  text-align: left;
+  margin-left: 75px;
+}
+ul li {
+  width: fit-content;
+  margin-left: 20%;
+}
+.skill-list{
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 70%;
+}
+.thing1 {
+  padding: 10px;
+  margin: 15px;
+}
+.thing1 img,
+.thing2 img,
+.thing3 img {
+  border-radius: 0%;
+  width: 75%;
+  margin-bottom: 0rem;
+}
+.thing2 {
+  padding: 10px;
+  margin: 15px;
+}
+.thing3 {
+  padding: 10px;
+  margin: 15px;
 }
