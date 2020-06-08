@@ -23,6 +23,7 @@ body {
 }
 footer {
   background-color: var(--color5);
+  font-size: 100%;
 }
 h1 {
   color: var(--color4);
@@ -45,7 +46,7 @@ h4 {
 }
 .goal {
   color: var(--color5);
-  font-size: 3vw;
+  font-size: 200%;
 }
 .nav-bar {
   font-size: 200%;
