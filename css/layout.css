@@ -1,0 +1,53 @@
+img{
+    display: block;
+    border-radius: 50%;
+    width: 35%;
+    margin-left: 32%;
+    margin-bottom: 8rem;
+}
+body{
+    align-content: center;
+}
+.entire-nav{
+padding-bottom: 5%;
+padding-top: .5%;
+}
+.nav-bar{
+    display: grid;
+    grid-auto-flow: column;
+}
+.goal{
+    margin: 5rem;
+}
+.grid-soft-skills{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-bottom: 8rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.soft-skills{
+    grid-column: 1/5;
+}
+.networking{
+    margin: 3rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.sites{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+}
+.contact{
+    margin-bottom: 5rem;
+}
+.background{
+    margin-bottom: 5rem;
+}
+.quick-access{
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}

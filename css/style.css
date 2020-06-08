@@ -1,0 +1,55 @@
+:root {
+  --color1: #eeeeee;
+  --color2: #aaaaaa;
+  --color3: #929495;
+  --color4: #afbed1;
+  --color5: #36393b;
+  --color6: #0a2463;
+  --color7: #084b83;
+  --color8: #08599e;
+  --color9: #0774bc;
+  --color10: #069def;
+  --color11: #56cbf9;
+}
+/* .title-font {color: var(--color3); */
+a{
+    color: var(--color4)  
+}
+body {
+  background-color: var(--color9);
+  color: var(--color4);
+  text-align: center;
+  font-family: cursive;
+  font-size:120% auto;
+}
+h1 {
+  color: var(--color4);
+  font-size: 400% auto;
+}
+
+h2 {
+  color: var(--color4);
+  font-size: 200% auto;
+}
+h3 { 
+    color: var(--color4);
+    font-size: 170% auto;
+}
+h4 { 
+    color: var(--color4);
+    font-size: 130% auto;
+}
+footer{
+    background-color: var(--color5);
+}
+.entire-nav {
+  background-color: var(--color6);
+}
+.nav-bar{
+   font-size: 200% auto;  
+}
+.goal{
+    font-size: 50px  auto;
+    color: var(--color5);
+}
+
