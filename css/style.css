@@ -25,6 +25,14 @@ footer {
   background-color: var(--color5);
   font-size: 100%;
 }
+html {
+  background-image: url("https://raw.githubusercontent.com/2020-Summer-Cohort/blog-java-optimistic-wanderer/master/src/main/resources/static/images/waterfall%20forest%20color.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+  color: var(--color1);
+}
 h1 {
   color: var(--color4);
   font-size: 300%;
