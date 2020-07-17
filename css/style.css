@@ -10,48 +10,52 @@
   --color9: #0774bc;
   --color10: #069def;
   --color11: #56cbf9;
+  --color12: rgba(49, 47, 47, 0.644);
 }
 a {
-  color: var(--color4);
+  color: var(--color1);
 }
 body {
-  /* background-color: var(--color9); */
-  color: var(--color4);
+
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 120%;
   text-align: center;
 }
+
 footer {
   background-color: var(--color5);
   font-size: 100%;
 }
 html {
-  background-image: url("https://raw.githubusercontent.com/ChristinCode/ChristinCode.github.io/master/Images/Mountain.jpg");
+  background-image: url("https://photos.smugmug.com/photos/i-8sfC3vH/0/O/i-8sfC3vH-O.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  color: var(--color1);
 }
 h1 {
-  color: var(--color4);
   font-size: 300%;
 }
+.goal {
+  font-size: 200%;
+}
+#name-goal, .background, .grid-soft-skills, .grid-hard-skills{
+  color: var(--color1);
+  background-color: var(--color12);
+  border-style: inset;
+  border-width: thick;
+}
 h2 {
-  color: var(--color4);
   font-size: 200%;
 }
 h3 {
-  color: var(--color4);
   font-size: 170%;
 }
 h4 {
-  color: var(--color4);
   font-size: 140%;
 }
 .entire-nav {
-  background-color: var(--color6);
-}
-.goal {
-  color: var(--color5);
-  font-size: 200%;
+  background-color: var(--color12);
 }
 .nav-bar {
   font-size: 200%;

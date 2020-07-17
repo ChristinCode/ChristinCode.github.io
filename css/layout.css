@@ -29,32 +29,40 @@ ul li {
   margin-bottom: 5rem;
 }
 .background {
-  margin-bottom: 5rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 1%; 
+  margin-top: 1%;
 }
 .entire-nav {
-  padding-bottom: 3%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;margin: auto;
+
 }
-.goal {
-  margin: 1rem;
+#name-goal{
+  padding: 1% 0 1% 0;
+  width: 50%;
+  margin: auto;
+  margin-top: 15%;
 }
-.grid-soft-skills {
+.goal, .name {
+  margin: 0;
+
+}
+.grid-soft-skills, .grid-hard-skills {
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  margin-bottom: 8rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 2%; 
+  margin-top: 1%;
 }
 .networking {
   margin: 3rem;
   margin-left: 30%;
   margin-right: 30%;
 }
-.name {
-  padding: 25px;
-  margin: 5px;
-}
+
 .nav-bar {
   display: grid;
   grid-auto-flow: column;
