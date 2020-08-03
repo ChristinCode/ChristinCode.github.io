@@ -21,14 +21,7 @@ footer {
   background-color: var(--color5);
   font-size: 100%;
  }
-html {
-  background-image: url("https://photos.smugmug.com/photos/i-8sfC3vH/0/O/i-8sfC3vH-O.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vw;
-  color: var(--color1);
-  position: fixed;
-}  
+
 h1 {
   font-size: 300%;
 }
