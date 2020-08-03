@@ -1,6 +1,12 @@
-body {
+/* body {
+  background-image: url("/pics/highway-background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   align-content: center;
-}
+} */
 footer {
   bottom: 0;
   left: 0;
@@ -8,7 +14,7 @@ footer {
   text-align: center;
   width: 100%;
   font-size: 100%;
-}
+} 
 img {
   border-radius: 50%;
   display: block;

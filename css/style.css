@@ -5,11 +5,6 @@
   --color4: #afbed1;
   --color5: #36393b;
   --color6: #0a2463;
-  --color7: #084b83;
-  --color8: #08599e;
-  --color9: #0774bc;
-  --color10: #069def;
-  --color11: #56cbf9;
   --color12: rgba(49, 47, 47, 0.644);
 }
 a {
@@ -25,21 +20,22 @@ body {
 footer {
   background-color: var(--color5);
   font-size: 100%;
-}
+ }
 html {
   background-image: url("https://photos.smugmug.com/photos/i-8sfC3vH/0/O/i-8sfC3vH-O.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 100vw;
   color: var(--color1);
-}
+  position: fixed;
+}  
 h1 {
   font-size: 300%;
 }
 .goal {
   font-size: 200%;
 }
-#name-goal, .background, .grid-soft-skills, .grid-hard-skills{
+#name-goal, .background, .grid-soft-skills, .grid-hard-skills, .entire-nav, .thing1, .thing2, .thing3, .quick-access{
   color: var(--color1);
   background-color: var(--color12);
   border-style: inset;
@@ -54,25 +50,12 @@ h3 {
 h4 {
   font-size: 140%;
 }
-.entire-nav {
-  background-color: var(--color12);
-}
+
 .nav-bar {
   font-size: 200%;
 }
-.skill-list {
+/* .skill-list {
   background-color: var(--color10);
   border-color: var(--color3);
-}
-.thing1 {
-  background-color: var(--color10);
-}
-.thing2 {
-  background-color: var(--color10);
-}
-.thing3 {
-  background-color: var(--color10);
-}
-.quick-access {
-  background-color: var(--color8);
-}
+} */
+
