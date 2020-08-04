@@ -28,7 +28,7 @@ h1 {
 .goal {
   font-size: 200%;
 }
-#name-goal, .background, .grid-soft-skills, .grid-hard-skills, .entire-nav, .thing1, .thing2, .thing3, .quick-access{
+#name-goal, .background, .grid-soft-skills, .grid-hard-skills, .entire-nav, .thing1, .thing2, .thing3, .quick-access-header, .contact-container, .tech-skill-container, .professional-projects-container, .project-list, .katas-container{
   color: var(--color1);
   background-color: var(--color12);
   border-style: inset;
