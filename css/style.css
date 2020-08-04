@@ -1,28 +1,20 @@
 :root {
   --color1: white;
-  --color2: #aaaaaa;
-  --color3: #929495;
-  --color4: #afbed1;
-  --color5: #36393b;
-  --color6: #0a2463;
-  --color12: rgba(49, 47, 47, 0.644);
+  --color2: #36393b;
+  --color3: rgba(49, 47, 47, 0.644);
 }
-a {
+a, footer{
   color: var(--color1);
 }
 body {
-
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 120%;
   text-align: center;
 }
-
 footer {
-  background-color: var(--color5);
+  background-color: var(--color2);
   font-size: 100%;
-  color: white;
  }
-
 h1 {
   font-size: 300%;
 }
@@ -31,7 +23,7 @@ h1 {
 }
 #name-goal, .background, .grid-soft-skills, .grid-hard-skills, .entire-nav, .thing1, .thing2, .thing3, .quick-access-header, .contact-container, .tech-skill-container, .professional-projects-container, .project-list, .katas-container{
   color: var(--color1);
-  background-color: var(--color12);
+  background-color: var(--color3);
   border-style: inset;
   border-width: thick;
 }
@@ -44,12 +36,6 @@ h3 {
 h4 {
   font-size: 140%;
 }
-
 .nav-bar {
   font-size: 200%;
 }
-/* .skill-list {
-  background-color: var(--color10);
-  border-color: var(--color3);
-} */
-
