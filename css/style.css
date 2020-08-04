@@ -20,6 +20,7 @@ body {
 footer {
   background-color: var(--color5);
   font-size: 100%;
+  color: white;
  }
 
 h1 {
