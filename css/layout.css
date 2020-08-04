@@ -7,6 +7,9 @@ body {
   background-attachment: fixed;
   align-content: center;
 }
+h4{
+  margin: 0rem;
+}
 footer {
   bottom: 0;
   left: 0;
@@ -30,7 +33,7 @@ ul li {
 .articles {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.5rem;
+margin: -1rem 2rem 2rem 2rem;
 }
 .contact {
   margin-bottom: 5rem;
@@ -74,7 +77,10 @@ ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 3rem;
 }
+#top-of-page{ 
+  padding-top: 1rem;}
 .skill-list {
   margin-left: 5%;
   margin-right: 70%;
